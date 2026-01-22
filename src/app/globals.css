@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+:root {
+  --background: #000000;
+  --foreground: #ffffff;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --font-bebas: var(--font-bebas-neue);
+  --font-poppins: var(--font-poppins);
+  
+  --color-neon-cyan: #00d2ff;
+  --color-neon-purple: #9d50bb;
+  --color-dark-bg: #0a0a0a;
+  --color-dark-card: #111111;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-poppins), sans-serif;
+  overflow-x: hidden;
+}
+
+/* Custom Utilities if needed */
+.text-gradient {
+  background: linear-gradient(to right, #00d2ff, #9d50bb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bg-gradient-neon {
+  background: linear-gradient(to right, #00d2ff, #9d50bb);
+}
+
+.border-neon {
+  border: 1px solid rgba(0, 210, 255, 0.3);
+}
+
+.shadow-neon {
+  box-shadow: 0 0 10px rgba(0, 210, 255, 0.3);
+}

@@ -1,11 +1,12 @@
 export const portfolioData = {
     personal: {
-        name: "Praveen",
+        name: "Praveen P P",
         role: "Software Developer",
         tagline: "Software Developer | Flutter Expert",
         email: "praveenpathmakaran@gmail.com",
         phone: "+91-8089416345",
         address: "Chengannur, Kerala 689124",
+        resume: "https://drive.google.com/file/d/1IA1uj5b29MMYZSDozndgEwI7xIgGV4jb/view?usp=drive_link",
         social: {
             linkedin: "https://www.linkedin.com/in/praveen-p-p-35a1041a1/",
             github: "https://github.com/PraveenPathmakaran",
@@ -17,7 +18,7 @@ export const portfolioData = {
         {
             company: "Techware Lab Pvt Ltd",
             role: "Software Developer",
-            period: "Apr 2024 – Present",
+            period: "Apr 2024 – Oct 2025",
             location: "Kochi, Kerala",
             description: [
                 "Contributed to a Child Care app using Flutter with a cross-functional team.",

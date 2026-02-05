@@ -25,7 +25,7 @@ const About = () => {
                             <p className="text-sm text-gray-400 mt-2">Years Experience</p>
                         </div>
                         <div className="p-6 border border-gray-800 rounded-xl bg-dark-card hover:border-neon-purple/50 transition-colors">
-                            <h3 className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-neon-purple to-pink-500">20+</h3>
+                            <h3 className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-neon-purple to-pink-500">10+</h3>
                             <p className="text-sm text-gray-400 mt-2">Projects Completed</p>
                         </div>
                         <div className="p-6 border border-gray-800 rounded-xl bg-dark-card hover:border-neon-cyan/50 transition-colors">

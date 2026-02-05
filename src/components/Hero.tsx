@@ -38,7 +38,9 @@ const Hero = () => {
                     className="flex flex-col md:flex-row gap-4 justify-center items-center mb-10"
                 >
                     <a
-                        href={personal.social.email}
+                        href={personal.resume}
+                        target="_blank"
+                        rel="noopener noreferrer"
                         className="bg-gradient-neon text-white px-8 py-3 rounded-full font-semibold hover:shadow-[0_0_20px_rgba(0,210,255,0.5)] transition-shadow duration-300 flex items-center gap-2"
                     >
                         <FileText size={20} /> Resume
